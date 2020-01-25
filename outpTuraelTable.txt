@@ -1,4 +1,4 @@
-local SlayerConsts = require ('Module:Sandbox/User:Andmcadams/Slayer')
+local SlayerConsts = require ('Module:Sandbox/User:Andmcadams/SlayerConsts')
 return {
 [SlayerConsts.TASK_BANSHEES] = { name = "[[Banshee]]s", requirements = {Slayer = 15, Combat = 20, Quest = SlayerConsts.QUEST_PRIEST_IN_PERIL}, weight = 8},
 [SlayerConsts.TASK_BATS] = { name = "[[Bat]]s", requirements = {Combat = 5}, weight = 7},

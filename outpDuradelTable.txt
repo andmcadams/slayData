@@ -1,4 +1,4 @@
-local SlayerConsts = require ('Module:Sandbox/User:Andmcadams/Slayer')
+local SlayerConsts = require ('Module:Sandbox/User:Andmcadams/SlayerConsts')
 return {
 [SlayerConsts.TASK_ABERRANT_SPECTRES] = { name = "[[Aberrant spectre]]", requirements= {Slayer= 60, Combat= 65, Quest= SlayerConsts.QUEST_PRIEST_IN_PERIL}, weight= 7},
 [SlayerConsts.TASK_ABYSSAL_DEMONS] = { name = "[[Abyssal demon]]", requirements= {Slayer= 85, Combat= 85, Quest= SlayerConsts.QUEST_PRIEST_IN_PERIL}, weight= 12},

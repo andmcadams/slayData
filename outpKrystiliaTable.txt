@@ -1,4 +1,4 @@
-local SlayerConsts = require ('Module:Sandbox/User:Andmcadams/Slayer')
+local SlayerConsts = require ('Module:Sandbox/User:Andmcadams/SlayerConsts')
 return {
 [SlayerConsts.TASK_ANKOU] = { name = "[[Ankou]]", requirements = {}, weight = 6},
 [SlayerConsts.TASK_AVIANSIE] = { name = "[[Aviansie]]", requirements = {Unlock = SlayerConsts.UNLOCK_WATCH_THE_BIRDIE}, weight = 7},
