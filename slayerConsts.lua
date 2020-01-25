@@ -364,3 +364,5 @@ end
 function p.get_monster_pairs()
 	return pairs(MONSTER_IDS)
 end
+
+return p
