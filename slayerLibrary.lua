@@ -109,6 +109,70 @@ function p.create_status(stats, quests, unlocks, other, blocks)
 	return status
 end
 
+-- Stub Functions
+
+--------------------------------------------------------------------------------
+-- These functions are just wrappers for the functions to access the tables in
+-- the SlayerConsts module. They are included for convenience so both this
+-- module and SlayerConsts do not need to be required by as many modules.
+--------------------------------------------------------------------------------
+
+function p.get_unlock_id(name)
+	return SlayerConsts.get_unlock_id(name)
+end
+
+function p.get_unlock_name(unlockId)
+	return SlayerConsts.get_unlock_name(unlockId)
+end
+
+function p.get_unlock_pairs()
+	return SlayerConsts.get_unlock_pairs()
+end
+
+function p.get_quest_id(name)
+	return SlayerConsts.get_quest_id(name)
+end
+
+function p.get_quest_name(questId)
+	return SlayerConsts.get_quest_name(questId)
+end
+
+function p.get_quest_pairs()
+	return SlayerConsts.get_quest_pairs()
+end
+
+function p.get_other_id(name)
+	return SlayerConsts.get_other_id(name)
+end
+
+function p.get_other_name(otherId)
+	return SlayerConsts.get_other_name(otherId)
+end
+
+function p.get_other_pairs()
+	return SlayerConsts.get_other_pairs()
+end
+
+function p.get_monster_id(name)
+	return SlayerConsts.get_monster_id(name)
+end
+
+function p.get_monster_name(monsterId)
+	return SlayerConsts.get_monster_name(monsterId)
+end
+
+function p.get_monster_pairs()
+	return SlayerConsts.get_monster_pairs()
+end
+
+--------------------------------------------------------------------------------
+--
+--
+-- End of stub functions
+--
+--
+--------------------------------------------------------------------------------
+
 
 -- Status Helper Functions
 
